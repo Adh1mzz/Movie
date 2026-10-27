@@ -1,0 +1,37 @@
+name: movies
+description: "Select your favorite movies and watch them later."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  material_symbols_icons: ^4.2719.3
+  card_swiper: ^3.0.0
+  cached_network_image: ^3.3.1
+  google_fonts: ^6.2.1
+  # --- (DEPENDENCIES) ---
+  flutter_riverpod: ^2.5.1
+  # the annotation package containing @riverpod
+  riverpod_annotation: ^2.3.5
+  auto_size_text: ^3.0.0
+  collection: ^1.18.0 # Digunakan untuk mapIndexed pada genre_section.dart & sort_picker.dart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  # --- (DEV_DEPENDENCIES) ---
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.4.0
+  riverpod_lint: ^2.3.5
+
+flutter:
+  uses-material-design: true
